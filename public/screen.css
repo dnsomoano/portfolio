@@ -7,3 +7,27 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+section {
+  background-image: url("images/space.png");
+  border: dotted pink;
+}
+
+.head-shot {
+  border-radius: 2%;
+  height: 10em;
+  width: 10em;
+  margin-top: 5em;
+  margin-left: 3em;
+}
+
+.image-properties {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.speech-bubble {
+  border: dotted pink;
+  display: flex;
+  flex-wrap: wrap;
+}
