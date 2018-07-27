@@ -3,14 +3,14 @@ html {
 }
 
 body {
+  display: flex;
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
 
-section {
+#background {
   background-image: url("images/space.png");
-  border: dotted pink;
 }
 
 .head-shot {
@@ -19,15 +19,44 @@ section {
   width: 10em;
   margin-top: 5em;
   margin-left: 3em;
+  margin-right: 0%;
+  margin-bottom: 0%;
 }
 
 .image-properties {
   justify-content: flex-start;
   align-items: flex-start;
+  border: dotted pink;
 }
 
+#speech-box {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  border: dotted pink;
+  margin-top: 0.5em;
+  margin-right: 1em;
+  margin-bottom: 0em;
+}
+
+header {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: white;
+  border: dotted pink;
+}
+
+h1 {
+  color: aquamarine;
+  border: dotted pink;
+}
 .speech-bubble {
   border: dotted pink;
   display: flex;
-  flex-wrap: wrap;
+}
+
+#bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color:#0B1C1E;
 }
