@@ -4,6 +4,7 @@ html {
 
 body {
   display: flex;
+  flex-direction: column;
   margin: 0;
   min-height: 100%;
   font-family: 'Roboto', sans-serif;
@@ -33,17 +34,17 @@ body {
   padding: 1em #D0D3D5;
 }
 
-.speech-box {
+.speech-bubble {
   flex-wrap: wrap;
   align-items: flex-start;
   border: dotted pink;
   margin-top: 0.5em;
   margin-right: 1em;
-  margin-bottom: 0em;
+  margin-bottom: 0%;
   background-color: #D1D5D7;
 }
 
-.speech-bubble {
+.speech-trail {
   margin-top: 0%;
 }
 
@@ -56,7 +57,7 @@ header {
 h1 {
   color: #424343;
 }
-.speech-bubble {
+.speech-trail {
   border: dotted pink;
   display: flex;
   
