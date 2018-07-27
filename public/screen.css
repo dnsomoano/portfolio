@@ -33,23 +33,28 @@ body {
   padding: 1em #D0D3D5;
 }
 
-#speech-box {
+.speech-box {
   flex-wrap: wrap;
   align-items: flex-start;
   border: dotted pink;
   margin-top: 0.5em;
   margin-right: 1em;
   margin-bottom: 0em;
+  background-color: #D1D5D7;
+}
+
+.speech-bubble {
+  margin-top: 0%;
 }
 
 header {
   font-weight: bold;
   font-size: 1.5em;
-  color: white;
+  color: #424343;
 }
 
 h1 {
-  color: aquamarine;
+  color: #424343;
 }
 .speech-bubble {
   border: dotted pink;
@@ -59,8 +64,12 @@ h1 {
 
 #bar-background {
   background-color: #0B1A18;
-  margin: 1em;
+  margin: 0.5em 0.5em 05em 0.5em;
   border: dotted pink;
+}
+
+.flexbar {
+  justify-content: flex-start
 }
 
 #bar {
