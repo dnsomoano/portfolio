@@ -11,61 +11,74 @@
 
 
 <body>
+  <!-- Top of Page -->
   <section class="photo-container">
-
-    <!--starting headshot-->
-    <img id="photo-item" src="images/298.jpeg" alt="photo">
-
-    <!--Speech bubble next to headshot-->
-    <section class="speech-container">
-      <section id="speech-item" class="transparent-property">
-        <header>Hi, I'm Jason Perry!</header>
-        <h1>I'm a Jr. Front End Engineer in St. Petersburg, FL</h1>
-      </section>
-      <section id="pointer-item">
-        <img class="transparent-property" src="images/tri.png" alt="pointer">
-      </section>
-    </section>
+    <ul>
+      <li>
+        <!-- starting headshot -->
+        <img id="photo-item" src="images/298.jpeg" alt="photo">
+      </li>
+      <li>
+        <!-- Speech bubble next to headshot -->
+        <header id="speech-header" class="transparent-property">Hi, I'm Jason Perry!</header>
+        <h1 id="speech-line" class="transparent-property">I'm a Jr. Front End Engineer in St. Petersburg, FL</h1>
+        <img id="pointer-item" src="images/tri.png" alt="pointer">
+      </li>
+    </ul>
   </section>
 
-  <!--Game reel with four images-->
-  <section id="preview-container" class="transparent-property">
-    <section id="one-list-item">
-      <img src="images/one-list.png " alt="one-list">
-    </section>
-    <section id="make-it-rain-item">
-      <img src="images/make-it-rain.png " alt="make-it-rain">
-    </section>
-    <section id="bomb-sniffer-item">
-      <img src="images/bomb-sniffer.png " alt="bomb-sniffer">
-    </section>
-    <section id="sensei-sense-item">
-      <img src="images/sensei-sense.png " alt="sensei-sense">
-    </section>
+  <!-- Game reel with four images -->
+  <section id="game-wrapper" class="transparent-property">
+    <li>
+      <img class="game-item" src="images/one-list.png " alt="one-list">
+    </li>
+    <li>
+      <img class="game-item" src="images/make-it-rain.png " alt="make-it-rain">
+    </li>
+    <li>
+      <img class="game-item" src="images/bomb-sniffer.png " alt="bomb-sniffer">
+    </li>
+    <li>
+      <img class="game-item" src="images/sensei-sense.png " alt="sensei-sense">
+    </li>
   </section>
 
-  <!--Article previews-->
+  <!-- Article previews -->
   <section id="middle-page-container">
+
+    <!--Article Preview 1-->
     <section class="article-container">
-      <img class="banner-item" src="images/react.png ">
-      <section class="article-preview">
-        <h1>Hello, React.</h1>
-        <h2>December 6th, 2017.</h2>
+      <article class="article-preview">
+        <img class="banner-item" src="images/react.png">
+        <header class="article-header">Hello, React.</header>
+        <h1>December 6th, 2017.</h1>
         <p>
-          <section>Keep reading</section>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
         </p>
-      </section>
+        <h1 class="read-more-button">Keep reading</h1>
+      </article>
     </section>
+
+    <!-- Article Preview 2 -->
     <section class="article-container">
       <img class="banner-item" src="images/code.png ">
-      <section class="article-preview">
-        <h1>Hello, React.</h1>
-        <h2>December 6th, 2017.</h2>
+      <article class="article-preview">
+        <header>Hello, React.</header>
+        <h1>December 6th, 2017.</h1>
         <p>
-          <section>Keep reading</section>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+          ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+          quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
+          sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+          quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
         </p>
-      </section>
+        <h1 class="read-more-button">Keep reading</h1>
+      </article>
     </section>
+    <!-- Footer for Contacting via Twitter -->
     <footer id="twitter-item">
       <header id="contact-us">Stay connected with me.</header>
     </footer>
