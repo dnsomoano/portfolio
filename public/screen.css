@@ -131,8 +131,13 @@ body {
 .article style {
   order 3;
   flex: 0 1 auto;
+}
+
+p {
+  padding: 1em;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
+  background-color: #fffefe;
   margin: 0;
 }
 
