@@ -12,19 +12,17 @@
 
 <body>
   <!-- Top of Page -->
-  <section class="photo-container">
-    <ul>
-      <li>
-        <!-- starting headshot -->
-        <img id="photo-item" src="images/298.jpeg" alt="photo">
-      </li>
-      <li>
-        <!-- Speech bubble next to headshot -->
-        <header id="speech-header" class="transparent-property">Hi, I'm Jason Perry!</header>
-        <h1 id="speech-line" class="transparent-property">I'm a Jr. Front End Engineer in St. Petersburg, FL</h1>
-        <img id="pointer-item" src="images/tri.png" alt="pointer">
-      </li>
-    </ul>
+  <section class="header-container">
+    <!-- starting headshot -->
+    <section class="photo-container">
+      <img id="photo-item" src="images/298.jpeg" alt="photo">
+      <!-- Speech bubble next to headshot -->
+      <header id="speech" class="transparent-property">
+        <span class="bold-font"> I'm Jason Perry!</span> 
+        I'm a Jr. Front End Engineer in St. Petersburg, FL</header>
+      <!-- <h1 id="speech-line" class="transparent-property">I'm a Jr. Front End Engineer in St. Petersburg, FL</h1> -->
+      <img id="pointer-item" src="images/tri.png" alt="pointer">
+    </section>
   </section>
 
   <!-- Game reel with four images -->
@@ -44,44 +42,51 @@
   </section>
 
   <!-- Article previews -->
-  <section id="middle-page-container">
 
-    <!--Article Preview 1-->
+  <!--Article Preview 1-->
+  <section id="middle-page-container">
     <section class="article-container">
-      <article class="article-preview">
-        <img class="banner-item" src="images/react.png">
-        <header class="article-header">Hello, React.</header>
-        <h1>December 6th, 2017.</h1>
-        <p>
+      <img class="banner-item" src="images/react.png ">
+      <section class="article-preview">
+        <h1 class="article-header">Hello, React.</h1>
+        <h2 class="article-date">December 6th, 2017.</h2>
+        <p class="article-style">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
           aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
           occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
         </p>
-        <h1 class="read-more-button">Keep reading</h1>
-      </article>
+        <section class="read-more-button">Keep reading</section>
+      </section>
     </section>
 
     <!-- Article Preview 2 -->
     <section class="article-container">
       <img class="banner-item" src="images/code.png ">
-      <article class="article-preview">
-        <header>Hello, React.</header>
-        <h1>December 6th, 2017.</h1>
-        <p>
+      <section class="article-preview">
+        <h1 class="article-header">Hello, React.</h1>
+        <h2 class="article-date" class="article-style">December 6th, 2017.</h2>
+        <p class="article-style">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
           ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
           quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
           sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
           quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
         </p>
-        <h1 class="read-more-button">Keep reading</h1>
-      </article>
+        <section class="read-more-button">Keep reading</section>
+      </section>
     </section>
+
     <!-- Footer for Contacting via Twitter -->
-    <footer id="twitter-item">
-      <header id="contact-us">Stay connected with me.</header>
-    </footer>
+    <nav class="footer-container">
+      <footer id="twitter-item">
+        <header id="contact-us">Stay connected with me.</header>
+        <img class="twitter-logo" src="images/media.png">
+        <img class="twitter-logo" src="images/media.png">
+        <img class="twitter-logo" src="images/media.png">
+        <img class="twitter-logo" src="images/media.png">
+      </footer>
+    </nav>
   </section>
 </body>
 
