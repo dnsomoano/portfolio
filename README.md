@@ -11,13 +11,14 @@ https://github.com/tiy-tpa-fee/assignments/tree/master/portfolio/assets
 The font used is Roboto.
 
 Objectives
-Build on your knowledge of HTML & CSS
-Implement, from scratch, a given design
-Use flexbox techniques layout pages.
+* Build on your knowledge of HTML & CSS
+* Implement, from scratch, a given design
+* Use flexbox techniques layout pages.
 Requirements
-Initially, you should implement the design as close as possible to the mockup. Later, you might choose to fit your own personality/style.
+- - - - - - - - -
+* Initially, you should implement the design as close as possible to the mockup. Later, you might choose to fit your own personality/style.
 
-Note: You should complete at least the tasks given for explorer mode as listed below before turning in the assignment, as well as before attempting adventure or epic modes.
+* Note: You should complete at least the tasks given for explorer mode as listed below before turning in the assignment, as well as before attempting adventure or epic modes.
 
 Explorer Mode
 - [X] Recreate the page as closely as you possibly can. Use the same fonts, sizes, and colors.
